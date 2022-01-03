@@ -2,7 +2,7 @@
     "name": "apparently-purple",
     "displayName": "Apparently Purple",
     "description": "Apparently Purple Theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "ApparentlyStudio",
     "engines": {
         "vscode": "^1.62.0"
