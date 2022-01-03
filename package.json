@@ -2,7 +2,7 @@
     "name": "apparently-purple",
     "displayName": "Apparently Purple",
     "description": "Apparently Purple Theme",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "ApparentlyStudio",
     "engines": {
         "vscode": "^1.62.0"
@@ -33,7 +33,7 @@
         "apparently"
     ],
     "galleryBanner": {
-        "color": "#7c58ff",
+        "color": "#1b1436",
         "theme": "dark"
     },
     "icon": "images/icon.png",
