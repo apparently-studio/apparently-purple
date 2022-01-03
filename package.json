@@ -3,13 +3,23 @@
     "displayName": "Apparently Purple",
     "description": "Apparently Purple Theme",
     "version": "1.0.0",
-    "publisher": "Apparently Studio",
+    "publisher": "ApparentlyStudio",
     "engines": {
         "vscode": "^1.62.0"
     },
+    "homepage": "https://github.com/apparently-studio/apparently-purple",
     "repository": {
         "type": "git",
         "url": "https://github.com/apparently-studio/apparently-purple"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Apparently Purple",
+                "path": "./themes/apparently-purple-color-theme.json",
+                "uiTheme": "vs-dark"
+            }
+        ]
     },
     "license": "MIT",
     "categories": [
