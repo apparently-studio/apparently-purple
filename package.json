@@ -1,74 +1,37 @@
 {
-    "name": "amethyst-theme",
-    "displayName": "Amethyst Themes",
-    "description": "A set of purple light and dark themes",
-    "version": "4.4.3",
-    "publisher": "amodio",
+    "name": "apparently-purple",
+    "displayName": "Apparently Purple",
+    "description": "Apparently Purple Theme",
+    "version": "1.0.0",
+    "publisher": "Apparently Studio",
     "engines": {
         "vscode": "^1.62.0"
     },
-    "license": "SEE LICENSE IN LICENSE",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apparently-studio/apparently-purple"
+    },
+    "license": "MIT",
     "categories": [
         "Themes"
     ],
     "keywords": [
         "theme",
-        "purple",
         "violet",
+        "purple",
         "dark",
-        "light"
+        "apparently"
     ],
     "galleryBanner": {
-        "color": "#7d16bf",
+        "color": "#7c58ff",
         "theme": "dark"
     },
     "icon": "images/icon.png",
-    "homepage": "https://github.com/eamodio/vscode-amethyst-theme/#readme",
-    "bugs": {
-        "url": "https://github.com/eamodio/vscode-amethyst-theme/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/eamodio/vscode-amethyst-theme.git"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Amethyst Dark",
-                "path": "./themes/amethyst-dark-color-theme.json",
-                "uiTheme": "vs-dark"
-            },
-            {
-                "label": "Amethyst Light",
-                "uiTheme": "vs",
-                "path": "./themes/amethyst-light-color-theme.json"
-            },
-            {
-                "label": "Amethyst Dark (Higher Contrast)",
-                "path": "./themes/amethyst-dark-hc-color-theme.json",
-                "uiTheme": "vs-dark"
-            },
-            {
-                "label": "Amethyst",
-                "path": "./themes/amethyst-color-theme.json",
-                "uiTheme": "vs-dark"
-            }
-        ]
-    },
     "scripts": {
         "pack": "git clean -df && vsce package",
-        "pretty": "prettier --config .prettierrc --loglevel warn --write \"./**/*.{js,md,json}\"",
         "pub": "git clean -df && vsce publish"
     },
     "devDependencies": {
-        "prettier": "2.4.1",
         "vsce": "2.2.0"
-    },
-    "__metadata": {
-        "id": "b66a8ae1-46ae-4b44-b13d-38b033bc8009",
-        "publisherId": "bf8a4b50-88d9-407c-888e-adc622578671",
-        "publisherDisplayName": "Eric Amodio",
-        "isPreReleaseVersion": false,
-        "installedTimestamp": 1640478659450
     }
 }
