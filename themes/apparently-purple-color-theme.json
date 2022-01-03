@@ -633,7 +633,7 @@
     "button.secondaryBackground": "#251c49",
     "button.secondaryHoverBackground": "#3c2d75",
     "input.background": "#1b1436",
-    "input.border": "#00000000",
+    "input.border": "#251c49",
     "input.foreground": "#ffffff",
     "inputOption.activeBackground": "#7c58ff",
     "inputOption.activeBorder": "#7c58ff00",
